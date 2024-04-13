@@ -1,6 +1,5 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="en"
     <head>
         <title>Cac-Moovies</title>
         <!-- Required meta tags -->
@@ -52,99 +51,124 @@
                     </div>
                 </div>
             </nav>
-            <h4>Colaboradores:</h4>          
-            <h5>Paola Fraticola</h5>
-            <h5>Maria Fernanda Gallino</h5>
-            <h5>Ana Pairan</h5>
-            <h5>Juan Carlos H</h5>
-            <h5>Raul Weissmann</h5>
+            <div style="text-align:center;">
+				<h6>Colaboradores:</h6>
+				<h6>Paola Fraticola</h6>
+				<h6>Maria Fernanda Gallino</h6>
+				<h6>Ana Pairan</h6>
+				<h6>Juan Carlos H</h6>
+				<h6>Raul Weissmann</h6>
+			</div>
         </header>
         <main>
-            <div class="container-fluid" mt-3>
+            <div id="containergeneral" class="container-fluid" mt-3>
                 <div class="row">
                     <div id="Buscar"                class="bg-success col-sm-6  col-md-4 col-lg-2">
-                        <h2>Aside</h2>                                              
+                        <h2>Aside</h2>
+                        <p>Este es un sitio web de marketing y evaluacion de peliculas</p>
+                        <p>Quienes somos? Criticos de arte y periodistas reunidos al efecto de promover el 7mo arte: El CINE NACIONAL</p>
+                        <div class="mb-3">
+                            <label id="Buscar" for="Search" class="form-label">Que pelicula buscas?</label>
+                            <input type="text" class="form-control" name="Buscar" id="FormBuscar" aria-describedby="Buscar pelicula" placeholder=""/>
+                            <small id="helpId" class="form-text text-muted">Ayuda Tipee el nombre de su pelicula</small>
+                        </div>
+                        
                     </div>
-                    <div id="Tendencias"            class= "bg-info   col-sm-6  col-md-4 col-lg-8 style="display:inline-block";>
+                    <div id="Tendencias"            class= "bg-info   col-sm-6  col-md-4 col-lg-8">
                         <h2>Tendencias</h2>
                         <p>Los Items de la semana</p>
+
                          <!-- tarjetas -->
-                         <div>
-                        <div class="d-flex" flex-row flex-wrap> 
-                            <div class="card" style="width:150px justify-content:space-evenly";>
-                                <img class="card-img-top" src="./Imagenes/kunfuPanda.jpg" alt="KungfuPanda";>
-                                <div class="card-body">
-                                    <h4 class="card-title">KungfuPanda</h4>
-                                    <p class="card-text">Pelicula Animada con Animales de Fantasia/p>
+                        <div id="containerTendencias" class="container-fluid" mt-3 style:"align-items:inline-block;>
+                            <div class="d-flex" flex-row flex-wrap>
+                                <div class="card" style="width:200px; justify-content:left; margin: 20px;">
+                                    <img class="card-img-top" src="./Imagenes/kunfuPanda.jpg" alt="KungfuPanda">
+                                    <div class="card-body">
+                                        <h4 class="card-title">KungfuPanda</h4>
+                                        <p class="card-text">Pelicula Animada de Fantasia con Animales</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        div class="d-flex" flex-row flex-wrap>
-                            <div class="card" style="width:150px justify-content:space-evenly";>
-                                <img class="card-img-top" src="./Imagenes/damsel.jpg" alt="Damsel";>
-                                <div class="card-body">
-                                    <h4 class="card-title">Damsel</h4>
-                                    <p class="card-text">Pelicula de Aventuras</p>
+                            <div class="d-flex" flex-row flex-wrap>
+                                <div class="card" style="width:200px; justify-content:left; margin: 20px;">
+                                    <img class="card-img-top" src="./Imagenes/damsel.jpg" alt="Damsel">
+                                    <div class="card-body">
+                                        <h4 class="card-title">Damsel</h4>
+                                        <p class="card-text">Pelicula de Aventuras</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="d-flex" flex-row flex-wrap>
-                            <div class="card" style="width:150px justify-content:space-evenly">
-                                <img class="card-img-top" src="./Imagenes/MadameWeb.jpg" alt="MadameWeb" />
-                                <div class="card-body">
-                                    <h4 class="card-title">MadameWeb</h4>
-                                    <p class="card-text">Pelicula Sentimental Descrip</p>
+                            <div class="d-flex" flex-row flex-wrap>
+                                <div class="card" style="width:200px; justify-content:left; margin: 20px;">
+                                    <img class="card-img-top" src="./Imagenes/MadameWeb.jpg" alt="MadameWeb"/>
+                                    <div class="card-body">
+                                        <h4 class="card-title">MadameWeb</h4>
+                                        <p class="card-text">Pelicula Sentimental</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div id="Aclamadas"             class= "bg-danger   col-sm-12 col-md-4 col-lg-2 style="display:inline-block";>
+                    <div id="Aclamadas"             class= "bg-danger   col-sm-12 col-md-4 col-lg-2">
                         <h2>Las Aclamadas</h2>
                         <p>Los Items destacados de la semana</p>
                         <!-- tarjetas -->
-                        <div class="d-flex" flex-row flex-wrap>
-                            <div class="card" style="width:150px justify-content:space-evenly";>
-                                <img class="card-img-top" src="./Imagenes/kunfuPanda.jpg" alt="KungfuPanda";>
-                                <div class="card-body">
-                                    <h4 class="card-title">KungfuPanda</h4>
-                                    <p class="card-text">Pelicula Animada con Animales de Fantasia/p>
+                        <div id="containerAclamadas" class="container-fluid" mt-3 style:"align-items:inline-block;">
+                            <div class="d-flex" flex-row flex-wrap>
+                                <div class="card" style="width:200px; justify-content:left; margin: 20px;">
+                                    <img class="card-img-top" src="./Imagenes/kunfuPanda.jpg" alt="KungfuPanda">
+                                    <div class="card-body">
+                                        <h4 class="card-title">KungfuPanda</h4>
+                                        <p class="card-text">Pelicula Animada con Animales de Fantasia/p>
+                                    </div>
+                                </div>
+                            </div>                    
+                            <div class="d-flex" flex-row flex-wrap>
+                                <div class="card" style="width:200px; justify-content:left; margin: 20px;">
+                                    <img class="card-img-top" src="./Imagenes/MadameWeb.jpg" alt="MadameWeb"/>
+                                    <div class="card-body">
+                                        <h4 class="card-title">MadameWeb</h4>
+                                        <p class="card-text">Pelicula Sentimental</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
+                    </div>    
                 </div>
-            </div>
-        </main>
-       
-        <section id="Contacto" style="justify-items: center;"></*--DatosDeContacto*/>
-            <div style="justify-items: center;">
-                <a class="boton1" href:"mailto:rweissmann@gmail.com">
-                <img src="./Imagenes/correo.png" alt="CorreoElectronico" width="30 px">
-                <b>Contactanos</b></a
-            </div>
-            <br>
-            <br>
-        </section>
 
+            </div>
         </main>
+
         <fouter>
-        <!-- place footer here -->    
+        <!-- place footer here -->
+        <div class="container">
+            <section id="Contactos"></*--DatosDeContacto*/>
+                <div id="Contacto" style="align-items: left;">
+                    <a class="boton1" href:"mailto:rweissmann@gmail.com">
+                    <img src="./Imagenes/correo.png" alt="CorreoElectronico" width="30px">
+                    <b>Contactanos</b></a
+                </div>
+                <br>
+                <br>
+            </section>
             <section id="Enlaces"></*--Enlaces LinkEdin Face Google Instagram WhatsApp*/>
-                <nav id="nav2" >
-                    <div style="justify-content: center";>
-                        <a href="https://facebook.com"><img width="30" src="./Imagenes/facebook.png" alt="Facebook"></a>
-                        <a href="https://instagram.com"><img width="30" src="./Imagenes/instagram.png" alt="Instagram"></a>
-                        <a href="https://google.com"><img width="30" src="./Imagenes/Google.png" alt="Google"></a>
-                        <a href="https://ar.LinkEdin.com"><img width="30" src="./Imagenes/LinkEdin.png" alt="LinkEdin"></a>
-                        <a href="https://whatsApp.com"><img width="30" src="./Imagenes/WhatsApp.png" alt="WhatsApp"></a>
-                        <br>
-                    </div>
-                </nav>
-                <br>
-                <br>
-            </section>           
+                <div id="Pie de Pagina" style="align-items: left;">
+                    <nav id="nav2">
+                        <div style="align-items: center">
+                            <a href="https://facebook.com"><img width="30" src="./Imagenes/facebook.png" alt="Facebook"></a>
+                            <a href="https://instagram.com"><img width="30" src="./Imagenes/instagram.png" alt="Instagram"></a>
+                            <a href="https://google.com"><img width="30" src="./Imagenes/Google.png" alt="Google"></a>
+                            <a href="https://ar.LinkEdin.com"><img width="30" src="./Imagenes/LinkEdin.png" alt="LinkEdin"></a>
+                            <a href="https://whatsApp.com"><img width="30" src="./Imagenes/WhatsApp.png" alt="WhatsApp"></a>
+                            <br>
+                        </div>                   
+                    </nav>
+                    <br>
+                    <br>
+                </div>
+            </section>
         </footer>
             <!-- Bootstrap JavaScript Libraries -->
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -154,5 +178,6 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"></script>
+        </div>
     </body>
 </html>
